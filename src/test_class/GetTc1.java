@@ -17,7 +17,7 @@ import request_repository.Get_RequestRepository;
 
 public class GetTc1 {
 	
-	@Test(priority=1,description="GET-API VALIDATION")
+	@Test(priority=1,description="GET- API VALIDATION")
 	@Description ("GET-API-validate responsebody parameter")
     @Epic("EP001-GET API")
 	@Feature("Feature1 : Response parameter validation ")
