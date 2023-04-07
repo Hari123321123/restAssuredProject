@@ -61,8 +61,8 @@ public class PutTc1 {
 		
 		//Extract Requestbody parameters 
 		JsonPath req = new JsonPath(requestbody);
-		String req_name = jsp.getString("name");
-		String req_job = jsp.getString("job");
+		String req_name = req.getString("name");
+		String req_job = req.getString("job");
 
 		// validate responsebody parameter
 		Assert.assertEquals(res_name, req_name);
